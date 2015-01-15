@@ -1,5 +1,10 @@
 # tools.wscat
 
+[![Build Status][build-status-image]][build-status]
+
+[build-status-image]: https://travis-ci.org/kaazing/tools.wscat.svg?branch=develop
+[build-status]: https://travis-ci.org/kaazing/tools.wscat
+
 # About this Project
 
 Project for 'cat' over websocket 
