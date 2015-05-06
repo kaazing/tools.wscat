@@ -20,8 +20,6 @@ Project for 'cat' over websocket
 
 # Running this Project
 
-(List steps to run this project.)
-
 0. `mvn clean verify`
 1. `cd target` 
 2. `java -jar wscat.jar <url>`  (for example `java -jar wscat.jar ws://echo.websocket.org/`)
