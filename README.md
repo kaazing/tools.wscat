@@ -22,5 +22,6 @@ Project for 'cat' over websocket
 
 (List steps to run this project.)
 
-0. mvn clean verify
-0. java -jar wscat-${project.version}.jar ws://echo.websocket.org/
+0. `mvn clean verify`
+1. `cd target` 
+2. `java -jar wscat-${project.version}.jar <url>`  (for example `java -jar wscat-1.0.0.2-SNAPSHOT.jar ws://echo.websocket.org/`)
