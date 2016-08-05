@@ -82,6 +82,7 @@ public class WSCat {
 		    while (data.position() < data.limit()) {
 			System.out.write(data.get());
 		    }
+		    System.out.flush();
 		    break;
 		case TEXT:
 		    CharSequence text = messageReader.getText();
